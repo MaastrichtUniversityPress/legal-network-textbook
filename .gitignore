@@ -114,3 +114,9 @@ _build/
 
 # poetry files
 pyproject.toml
+
+# macOS
+.DS_Store
+
+# Keep original repo copy out of commits
+TO MIGRATE/

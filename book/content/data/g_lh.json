@@ -1,0 +1,331 @@
+{
+	"directed": true,
+	"multigraph": false,
+	"graph": {
+
+	},
+	"nodes": [
+		{
+			"id": "R16545",
+			"type":"Case law"
+		},
+		{
+			"id": "R16556",
+			"type":"Case law"
+		},
+		{
+			"id": "C10099",
+            "type":"Basic source"
+		},
+		{
+			"id": "C10415",
+            "type":"Basic source"
+		},
+		{
+			"id": "C10705",
+            "type":"Basic source"
+		},
+		{
+			"id": "RRC4123",
+			"type":"Roman law"
+		},
+		{
+			"id": "RLMech777",
+			"type":"Customary law"
+		},
+		{
+			"id": "RLMech7781",
+			"type":"Customary law"
+		},
+		{
+			"id": "RLMech7782",
+			"type":"Customary law"
+		},
+		{
+			"id": "RLZutph1",
+			"type":"Customary law"
+		},
+		{
+			"id": "RLVoet201",
+			"type":"Customary law"
+		},
+		{
+			"id": "RRInst464",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRD6123",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRC236",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRD21438",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRAuthCod81324",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRAuthCod41014",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRNov41",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRNov42",
+			"type":"Roman law"
+		},
+		{
+			"id": "RLPerez2",
+			"type":"Customary law"
+		},
+		{
+			"id": "RRInst416",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRC73212",
+			"type":"Roman law"
+		},
+		{
+			"id": "RFHed125044",
+			"type":"Customary law"
+		},
+		{
+			"id": "RFHed125045",
+			"type":"Customary law"
+		},
+		{
+			"id": "RRC2320",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRD41247",
+			"type":"Roman law"
+		},
+		{
+			"id": "RLFab771",
+			"type":"Customary law"
+		},
+		{
+			"id": "RRD613",
+			"type":"Roman law"
+		},
+		{
+			"id": "RRC2572",
+			"type":"Roman law"
+		},
+		{
+			"id": "IRPlaccaat",
+			"type":"Customary law"
+		}
+	],
+	"links": [
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "R16556"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRC4123"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLMech777"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLMech7781"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLMech7782"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLZutph1"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLVoet201"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRInst464"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRD6123"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRC236"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRD21438"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRAuthCod81324"
+		},
+		{
+			"weight": 2,
+			"source": "C10099",
+			"target": "RRAuthCod41014"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRNov41"
+		},
+		{
+			"weight": 2,
+			"source": "C10099",
+			"target": "RRNov42"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLPerez2"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRInst416"
+		},
+		{
+			"weight": 3,
+			"source": "C10099",
+			"target": "RRC73212"
+		},
+		{
+			"weight": 4,
+			"source": "C10099",
+			"target": "RFHed125044"
+		},
+		{
+			"weight": 2,
+			"source": "C10099",
+			"target": "RFHed125045"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRC2320"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RRD41247"
+		},
+		{
+			"weight": 1,
+			"source": "C10099",
+			"target": "RLFab771"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "R16545"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "R16556"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "C10099"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "RRC4123"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "RLMech777"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "RLVoet201"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "RRAuthCod41014"
+		},
+		{
+			"weight": 3,
+			"source": "C10415",
+			"target": "RRC73212"
+		},
+		{
+			"weight": 3,
+			"source": "C10415",
+			"target": "RFHed125044"
+		},
+		{
+			"weight": 2,
+			"source": "C10415",
+			"target": "RFHed125045"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "RRD613"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "RRC2572"
+		},
+		{
+			"weight": 1,
+			"source": "C10415",
+			"target": "IRPlaccaat"
+		},
+		{
+			"weight": 1,
+			"source": "C10705",
+			"target": "C10415"
+		},
+		{
+			"weight": 2,
+			"source": "C10705",
+			"target": "RRC73212"
+		},
+		{
+			"weight": 1,
+			"source": "C10705",
+			"target": "RFHed125044"
+		},
+		{
+			"weight": 1,
+			"source": "C10705",
+			"target": "RFHed125045"
+		}
+	]
+}
