@@ -1,5 +1,5 @@
 (intro)=
-# Legal Network Analysis
+# Legal Network Analysis - PREPRODUCTION
 
 This open textbook introduces the concepts and practice of network analysis in legal contexts. It combines short explanations with executable Jupyter notebooks so readers can run, tweak, and reproduce every figure and result.
 
