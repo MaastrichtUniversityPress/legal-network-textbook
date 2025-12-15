@@ -8,8 +8,7 @@ parts:
     - file: content/Chapter_2_Key_Concepts.ipynb
     - file: content/Chapter_3_Centrality.ipynb
     - file: content/Chapter_4_Communities.ipynb
-    - file: content/Chapter_5_Estimation_and_embeddings.ipynb
-    - file: content/Chapter_6_Data_Collection_and_Preparation.ipynb
+    - file: content/Chapter_5_Data_Collection_and_Preparation.ipynb
   - caption: Appendices
     chapters:
     - file: content/Appendix_1_Getting_data_in.ipynb
