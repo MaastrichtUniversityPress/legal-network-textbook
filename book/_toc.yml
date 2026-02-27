@@ -17,6 +17,6 @@ parts:
     - file: content/Appendix_4_Vector_Scaling.ipynb
     - file: content/Appendix_5_Plotting.ipynb
     - file: content/Appendix_6_Software.ipynb
-     - caption: Appendices
-  - chapters: Colophon
+  - caption: Colophon
+    chapters:
     - file: colophon.md
