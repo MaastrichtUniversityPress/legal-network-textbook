@@ -30,9 +30,9 @@ sphinx:                                              # Options passed on to the 
     html_baseurl:  "https://<user/org>.io/<repo>"    # Replace this with your own URL, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_theme_options:
       logo:
-        text:        Legal Network Analysis
-        image_light: MUP Legal Network Analysis.png
-        image_dark: MUP Legal Network Analysis.png
+        text: Legal Network Analysis
+        image_light: legal_network_analysis.png
+        image_dark: legal_network_analysis.png
       repository_url: "https://github.com/user/repo" # Add your own repo URL here, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
       path_to_docs:          "book"                  # Required for edit_page_button, should be book if you're using TeachBooks package (https://github.com/TeachBooks/TeachBooks) or the TeachBooks deploy book workflow (https://teachbooks.io/manual/external/deploy-book-workflow/README.html), configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
       repository_branch:     "main"                  # Replace when you change the name of your published branch (required for edit_page_button), configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
