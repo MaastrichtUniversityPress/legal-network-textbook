@@ -126,7 +126,7 @@
 			"type":"Customary law"
 		}
 	],
-	"links": [
+	"edges": [
 		{
 			"weight": 1,
 			"source": "C10099",
