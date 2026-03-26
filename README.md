@@ -9,8 +9,8 @@ An open textbook on legal network analysis with hands-on, executable Jupyter not
 - Authors: Gustavo Arosemena, Gijs van Dijck, Roland Moerland
 - Institution: Maastricht University — Law and Tech Lab
 - Place: Maastricht
-- Version: 0.1
-- Date: November 1, 2023
+- Version: 1.0
+- Date: March 26, 2026
 
 If published via GitHub Pages, the book will be available at: `https://<username-or-org>.github.io/legal-network-textbook/`.
 
