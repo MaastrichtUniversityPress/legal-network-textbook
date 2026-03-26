@@ -30,21 +30,20 @@ If published via GitHub Pages, the book will be available at: `https://<username
 
 ## Getting Started
 
-Build locally using either TeachBooks or JupyterBook:
+We recommend using UV for reproducibility.
+
+Installation instructions for uv can be found [here]("https://docs.astral.sh/uv/getting-started/installation/").
+
+Once installed create and activate a local environment sync to the uv.lock file as follows:
 
 ```
-pip install -r requirements.txt
+uv .venv env_name
+source .venv/bin/activate
+uv sync
 
-# Option A (TeachBooks)
-teachbooks build book
-
-# Option B (JupyterBook)
-jupyter-book build book
 ```
 
-Open `book/_build/html/index.html` in your browser to preview locally.
 
-To publish on GitHub Pages, enable Pages for this repo (source: GitHub Actions) and let the included workflow build and deploy the site.
 
 ## Content Outline
 
