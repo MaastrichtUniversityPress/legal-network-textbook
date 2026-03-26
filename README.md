@@ -28,13 +28,27 @@ If published via GitHub Pages, the book will be available at: `https://<username
   - `fix_paths_in_notebooks.py`: Normalize image paths inside notebooks
 - `TO MIGRATE/`: Read-only copy of the original Vue/Vite app (kept as backup)
 
-## Getting Started
+## Building the book
 
-We recommend using UV for reproducibility.
+Build locally using either TeachBooks or JupyterBook:
 
-Installation instructions for uv can be found [here]("https://docs.astral.sh/uv/getting-started/installation/").
+```
+pip install -r requirements.txt
 
-Once installed create and activate a local environment sync to the uv.lock file as follows:
+# Option A (TeachBooks)
+teachbooks build book
+
+# Option B (JupyterBook)
+jupyter-book build book
+```
+
+## Notebook reproducibility
+
+We recommend using uv for reproducibility.
+
+Installation instructions for uv can be found [here](https://docs.astral.sh/uv/getting-started/installation/).
+
+Once uv is installed move the the "book/content/" directory, activate a local environment sync to the uv.lock file as follows:
 
 ```
 uv .venv env_name
@@ -43,9 +57,9 @@ uv sync
 
 ```
 
-
-
 ## Content Outline
+
+The content can be found under "book/content/"
 
 Chapters
 - Chapter_1_Introduction
