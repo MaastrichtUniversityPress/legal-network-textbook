@@ -637,7 +637,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "jupyter-book", specifier = ">=2" },
+    { name = "jupyter-book", specifier = ">=2.1.2" },
     { name = "networkx", specifier = ">=3.4.0" },
     { name = "numpy", specifier = ">=1.26.0,<2.0.0" },
     { name = "pandas", specifier = ">=2.2.0" },

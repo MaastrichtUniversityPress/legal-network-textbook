@@ -12,5 +12,5 @@ dependencies = [
     "seaborn>=0.13.0",
     "networkx>=3.4.0",
     "textdistance>= 4.6.3",
-    "jupyter-book>= 2"
+    "jupyter-book >= 2.1.2"
 ]
