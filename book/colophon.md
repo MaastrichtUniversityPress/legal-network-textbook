@@ -13,8 +13,8 @@ ORCID: [0000-0001-6343-6221](https://orcid.org/0000-0001-6343-6221)
 
 Published by: [Maastricht University Press](https://library.maastrichtuniversity.nl/resources/maastricht-university-press/) | Maastricht University, The Netherlands
 
-Version: 2026-01 </br>
-Publication date: March 2026  
+Version: 1.0.0 </br>
+Publication date: April 2026  
 DOI: [10.26481/mup.2606](https://doi.org/10.26481/mup.2606)
 
 **Copyright:**  </br>
