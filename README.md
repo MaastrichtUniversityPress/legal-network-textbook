@@ -9,8 +9,8 @@ An open textbook on legal network analysis with hands-on, executable Jupyter not
 - Authors: Gustavo Arosemena, Gijs van Dijck, Roland Moerland
 - Institution: Maastricht University — Law and Tech Lab
 - Place: Maastricht
-- Version: 0.1
-- Date: November 1, 2023
+- Version: 1.0
+- Date: March 26, 2026
 
 If published via GitHub Pages, the book will be available at: `https://<username-or-org>.github.io/legal-network-textbook/`.
 
@@ -28,7 +28,7 @@ If published via GitHub Pages, the book will be available at: `https://<username
   - `fix_paths_in_notebooks.py`: Normalize image paths inside notebooks
 - `TO MIGRATE/`: Read-only copy of the original Vue/Vite app (kept as backup)
 
-## Getting Started
+## Building the book
 
 Build locally using either TeachBooks or JupyterBook:
 
@@ -42,11 +42,24 @@ teachbooks build book
 jupyter-book build book
 ```
 
-Open `book/_build/html/index.html` in your browser to preview locally.
+## Notebook reproducibility
 
-To publish on GitHub Pages, enable Pages for this repo (source: GitHub Actions) and let the included workflow build and deploy the site.
+We recommend using uv for reproducibility.
+
+Installation instructions for uv can be found [here](https://docs.astral.sh/uv/getting-started/installation/).
+
+Once uv is installed move the the "book/content/" directory, activate a local environment sync to the uv.lock file as follows:
+
+```
+uv .venv env_name
+source .venv/bin/activate
+uv sync
+
+```
 
 ## Content Outline
+
+The content can be found under "book/content/"
 
 Chapters
 - Chapter_1_Introduction
